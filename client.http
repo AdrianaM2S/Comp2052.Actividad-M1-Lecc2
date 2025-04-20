@@ -1,0 +1,14 @@
+
+# GET info
+GET http://127.0.0.1:5000/info
+Content-Type: application/json
+
+####
+
+# POST message
+POST http://127.0.0.1:5000/message
+Content-Type: application/json
+
+{
+    "message": "Adriana M. Marrero Sanchez"
+}
